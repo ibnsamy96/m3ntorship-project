@@ -1,0 +1,13 @@
+#cover {
+  height: 400px;
+  max-height: 100vh;
+  background-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.4),
+      rgba(255, 255, 255, 0)
+    ),
+    url("../../assets/images/image-hero-desktop.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}

@@ -11,13 +11,6 @@
   position: relative;
 }
 
-app-navbar {
-  /* TODO don't append css to the father component */
-  position: absolute;
-  top: 48px;
-  width: 100%;
-}
-
 section {
   max-height: 100%;
   padding-top: 164px;

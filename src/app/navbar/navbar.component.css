@@ -1,3 +1,9 @@
+:host {
+  position: absolute;
+  top: 48px;
+  width: 100%;
+}
+
 header {
   /* background-color: rgba(255, 0, 0, 0.4); */
   max-width: 1275px;
@@ -31,6 +37,7 @@ nav,
   font-weight: bold;
   text-transform: uppercase;
   letter-spacing: 0.16em;
+  cursor: pointer;
 }
 
 .nav-element:last-child {

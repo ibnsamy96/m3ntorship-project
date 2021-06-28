@@ -1,13 +1,75 @@
-#cover {
-  height: 400px;
-  max-height: 100vh;
-  background-image: linear-gradient(
-      to bottom,
-      rgba(0, 0, 0, 0.4),
-      rgba(255, 255, 255, 0)
-    ),
-    url("../../assets/images/image-hero-desktop.jpg");
-  background-position: center;
+:host {
+  display: inline-block;
+  width: 100%;
+  /* max-height: 100vh; */
+  background-image: url("../../assets/images/section1/header-bg.jpg");
+  background-position: left;
   background-size: cover;
   background-repeat: no-repeat;
+  /* padding-top: 37px;  */
+  /* pos */
+  position: relative;
+}
+
+app-navbar {
+  /* TODO don't append css to the father component */
+  position: absolute;
+  top: 48px;
+  width: 100%;
+}
+
+section {
+  max-height: 100%;
+  padding-top: 164px;
+  height: 657px;
+  position: relative;
+}
+
+p {
+  font-size: 41.67px;
+}
+
+p span {
+  color: var(--brand-cta-color-dark);
+}
+
+#exclamation-container {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#exclamation-smart-object-image {
+  width: 588px;
+  margin: auto;
+  display: block;
+  margin-top: -15px;
+}
+
+#exclamation-container h1 {
+  font-size: 66px;
+  color: var(--brand-cta-color-dark);
+  position: absolute;
+  transform: rotate(347.05deg);
+  margin-left: -35px;
+  margin-top: -15px;
+}
+
+#exclamation-container h1 span {
+  font-size: 62px;
+}
+
+#dog-image {
+  width: 498px;
+  position: absolute;
+  bottom: 0;
+  right: -10px;
+}
+
+#food-bag-image {
+  width: 523px;
+  position: absolute;
+  bottom: -60px;
+  left: 30px;
 }

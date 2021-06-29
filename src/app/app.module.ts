@@ -10,6 +10,7 @@ import { StartLifeComponent } from './start-life/start-life.component';
 import { CtaSectionComponent } from './cta-section/cta-section.component';
 import { ProductsComponent } from './products/products.component';
 import { FooterComponent } from './footer/footer.component';
+import { CtaBtnComponent } from './shared/cta-btn/cta-btn.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +22,8 @@ import { FooterComponent } from './footer/footer.component';
     StartLifeComponent,
     CtaSectionComponent,
     ProductsComponent,
-    FooterComponent
+    FooterComponent,
+    CtaBtnComponent
   ],
   imports: [
     BrowserModule

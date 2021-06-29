@@ -23,7 +23,7 @@ p {
 }
 
 p span {
-  color: var(--brand-cta-color-dark);
+  /* color: var(--brand-cta-color-dark); */
 }
 
 #exclamation-container {
@@ -42,7 +42,7 @@ p span {
 
 #exclamation-container h1 {
   font-size: 66px;
-  color: var(--brand-cta-color-dark);
+  /* color: var(--brand-cta-color-dark); */
   position: absolute;
   transform: rotate(347.05deg);
   margin-left: -35px;

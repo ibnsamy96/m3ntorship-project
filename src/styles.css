@@ -14,6 +14,9 @@
 .cta-text {
   color: var(--brand-cta-color);
 }
+.cta-bg {
+  background-color: var(--brand-cta-color);
+}
 .cta-dark-text {
   color: var(--brand-cta-color-dark);
 }

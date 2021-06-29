@@ -1,0 +1,10 @@
+.btn {
+  /* background-color: red; */
+  /* padding: 21px 25px; */
+  display: inline-block;
+  cursor: pointer;
+  transition: background-color 100ms;
+}
+.btn:hover {
+  background-color: var(--brand-cta-color-dark);
+}

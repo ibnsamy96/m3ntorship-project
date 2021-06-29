@@ -1,0 +1,31 @@
+:host {
+  display: inline-block;
+  width: 100%;
+  /* height: ; */
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url("../../assets/images/ingredient/chicken.png");
+  background-position: center;
+  background-size: cover;
+  backdrop-filter: ;
+}
+
+section {
+  max-width: 837px;
+  margin: 78px auto;
+}
+
+section h1 {
+  line-height: 66.67px;
+  font-size: 62.5px;
+  letter-spacing: 0em;
+}
+
+section h1 span {
+  font-size: 33.33px;
+  letter-spacing: 0.16em;
+}
+
+p {
+  font-size: 20.83px;
+  line-height: 33.33px;
+}

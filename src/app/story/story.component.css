@@ -1,0 +1,58 @@
+:host {
+  background-color: blue !important;
+  position: relative;
+  display: inline-block;
+  width: 100%;
+}
+
+#amazed-dog-image {
+  position: absolute;
+  left: 0;
+  top: 36px;
+  width: 428px;
+}
+
+section {
+  display: flex;
+  flex-direction: row;
+  max-width: 1212px;
+  margin: auto;
+  margin-top: 20px;
+}
+
+.col {
+  width: 33.333333%;
+  /* TODO in small screen it'll be 100% */
+  /* background-color: red;
+  border: 2px solid black; */
+  padding: 50px 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#story-title-container h1 {
+  font-size: 100px;
+  letter-spacing: -0.02em;
+  line-height: 60px;
+  margin-top: -50px;
+}
+#story-title-container h1 span {
+  font-size: 41.67px;
+  letter-spacing: 0.06em;
+}
+
+#story-text-container p {
+  font-size: 20.83px;
+  line-height: 33.33px;
+}
+#story-text-container a {
+  font-size: 16.67px;
+  letter-spacing: 0.16em;
+  margin-top: 10px;
+}
+
+#food-bag-image {
+  width: 357px;
+  height: 322px;
+}

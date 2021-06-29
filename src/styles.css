@@ -11,6 +11,19 @@
   --brand-white-color: #ffffff;
 }
 
+.cta-text {
+  color: var(--brand-cta-color);
+}
+.cta-dark-text {
+  color: var(--brand-cta-color-dark);
+}
+.black-text {
+  color: var(--brand-black-color);
+}
+.white-text {
+  color: var(--brand-white-color);
+}
+
 .primary-text {
   font-family: var(--primary-font);
   font-weight: bold;
@@ -18,6 +31,14 @@
 
 .secondary-text {
   font-family: var(--secondary-font);
+}
+
+.bold {
+  font-weight: 700;
+}
+
+.semi-bold {
+  font-weight: 600;
 }
 
 .container {
@@ -36,6 +57,10 @@
 
 .text-right {
   text-align: right;
+}
+
+.uppercase {
+  text-transform: uppercase;
 }
 
 .overflow-x-none {

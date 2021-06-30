@@ -1,0 +1,40 @@
+:host {
+  display: inline-block;
+  padding: 88px 281px 97px 237px;
+}
+section {
+  display: flex;
+}
+
+section div h1 {
+  font-size: 33.33px;
+  line-height: 45.83px;
+  letter-spacing: 0.06em;
+  margin: 0;
+}
+
+section div p {
+  font-size: 16.67px;
+  line-height: 20.83px;
+  letter-spacing: 0;
+}
+
+#food-bag-image {
+  width: 357px;
+}
+
+.col {
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+}
+
+section div.col:first-child {
+  /* background-color: red; */
+  width: fit-content;
+}
+
+section div.col:last-child {
+  /* background-color: red; */
+  padding-left: 7.5px;
+}

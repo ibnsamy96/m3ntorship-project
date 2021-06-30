@@ -1,0 +1,39 @@
+:host {
+  display: inline-block;
+  padding: 79.7px 135px 129px 265px;
+}
+section {
+  display: flex;
+}
+
+section div h1 {
+  font-size: 54.17px;
+  line-height: 66.67px;
+  letter-spacing: 0;
+}
+
+section div p {
+  font-size: 20.83px;
+  line-height: 33.33px;
+  letter-spacing: 0;
+}
+
+#dog-image {
+  width: 395.5px;
+}
+
+.col {
+  width: 100%;
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+}
+
+h1 {
+  margin: 0;
+}
+
+section div.col:last-child {
+  /* background-color: red; */
+  width: fit-content;
+}

@@ -2,6 +2,7 @@
   background-color: #f0f0f0;
   display: inline-block;
   width: 100%;
+  position: relative;
 }
 
 section {
@@ -38,7 +39,7 @@ p {
   font-size: 20.83px;
   line-height: 33.33px;
   border-bottom: #7f7f7f solid 1px;
-  padding: 13.7px 0px;
+  padding: 8px 0px;
   display: flex;
 }
 
@@ -62,4 +63,12 @@ p {
 p {
   font-size: 16.67;
   line-height: 20.83px;
+}
+
+#dog-image {
+  position: absolute;
+  top: -87px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 250px;
 }

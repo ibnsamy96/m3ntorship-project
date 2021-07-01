@@ -20,6 +20,7 @@ section {
 
 p {
   font-size: 41.67px;
+  margin-bottom: 37px;
 }
 
 p span {
@@ -64,5 +65,5 @@ p span {
   width: 523px;
   position: absolute;
   bottom: -60px;
-  left: 30px;
+  left: -30px;
 }

@@ -1,6 +1,6 @@
 :host {
   display: inline-block;
-  padding: 79.7px 135px 129px 265px;
+  padding: 79.7px 135px 129px 264px;
 }
 section {
   display: flex;
@@ -10,12 +10,14 @@ section div h1 {
   font-size: 54.17px;
   line-height: 66.67px;
   letter-spacing: 0;
+  margin-bottom: 16.3px;
 }
 
 section div p {
   font-size: 20.83px;
   line-height: 33.33px;
   letter-spacing: 0;
+  margin-bottom: 35.5px;
 }
 
 #dog-image {

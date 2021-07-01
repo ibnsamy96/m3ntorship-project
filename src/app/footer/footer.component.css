@@ -4,9 +4,12 @@
   padding: 0 57px 67px 52px;
 }
 section {
+  background-color: #eeeef0;
   background-image: url("../../assets/images/footer/dog-pose.jpg");
-  background-size: cover;
-  background-position: top left;
+  /* background-size: cover; */
+  background-size: auto 752px;
+  background-position: -6px -72px;
+  background-repeat: no-repeat;
   height: 525px;
   display: flex;
   flex-direction: row-reverse;

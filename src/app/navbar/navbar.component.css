@@ -30,9 +30,10 @@ nav,
 .nav-element {
   list-style-type: none;
   display: inline-block;
-  font-size: 16.67px;
+  font-size: 60px;
   padding: 0 25px;
-  letter-spacing: 0.16em;
+  letter-spacing: 0.06em;
+  line-height: 20px;
   cursor: pointer;
 }
 

@@ -14,6 +14,7 @@ section {
   display: flex;
   flex-direction: row-reverse;
   padding: 27px;
+  border: #3d3d3d solid 0.5px;
 }
 
 #right-side {

@@ -1,0 +1,90 @@
+:host {
+  display: inline-block;
+  width: 100%;
+  padding: 0 57px 67px 52px;
+}
+section {
+  background-image: url("../../assets/images/footer/dog-pose.jpg");
+  background-size: cover;
+  background-position: top left;
+  height: 525px;
+  display: flex;
+  flex-direction: row-reverse;
+  padding: 27px;
+}
+
+#right-side {
+  width: 50%;
+  /* background-color: red; */
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+#logo-container {
+  padding-top: 177.3px;
+}
+
+#logo {
+  width: 256px;
+}
+
+#bottom-elements {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+#menu-rights {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+#footer-menu {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  margin-bottom: 25px;
+}
+
+#footer-menu span {
+  font-size: 16.67px;
+  line-height: 30px;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+}
+
+#footer-menu #first-line span:first-of-type {
+  margin-right: 48px;
+}
+
+#footer-menu #second-line span:first-of-type {
+  margin-right: 39px;
+}
+
+#footer-menu span:last-of-type {
+  margin-right: 0;
+}
+
+#footer-menu p {
+  font-size: 16.67px;
+  line-height: 20px;
+  letter-spacing: 0;
+  display: flex;
+  align-items: center;
+}
+
+#social-media-icons span {
+  background-color: var(--brand-cta-color);
+  border-radius: 50%;
+  margin-right: 12px;
+  display: inline-block;
+  padding: 5px 3px;
+}
+
+#social-media-icons span:last-of-type {
+  margin-right: 0;
+}

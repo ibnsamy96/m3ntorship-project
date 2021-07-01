@@ -1,1 +1,36 @@
-<p>cta-section works!</p>
+<section>
+  <div class="col">
+    <h1 class="primary-text">LEARN MORE ABOUT DOG BREEDS</h1>
+    <div id="input-group">
+      <input type="text" class="secondary-text" placeholder="Search breeds" />
+      <img
+        src="../../assets/images/cta/search.png"
+        alt="search-icon"
+        id="search-icon"
+      />
+    </div>
+    <app-cta-btn
+      [fontSize]="'12.5'"
+      [lineHeight]="'12'"
+      [letterSpacing]="'0.06'"
+      [buttonText]="'VIEW ALL DOG BREEDS'"
+      [paddingX]="'22'"
+      [paddingY]="'23'"
+    ></app-cta-btn>
+  </div>
+  <div class="col"></div>
+  <div class="col">
+    <h1 class="primary-text">THINKING OF GETTING A DOG?</h1>
+    <p class="secondary-text">
+      There are many things you need to know before getting a dog.
+    </p>
+    <app-cta-btn
+      [fontSize]="'12.5'"
+      [lineHeight]="'12'"
+      [letterSpacing]="'0.06'"
+      [buttonText]="'LEARN MORE'"
+      [paddingX]="'33'"
+      [paddingY]="'22'"
+    ></app-cta-btn>
+  </div>
+</section>

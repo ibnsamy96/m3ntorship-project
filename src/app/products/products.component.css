@@ -11,12 +11,14 @@ section div h1 {
   line-height: 45.83px;
   letter-spacing: 0.06em;
   margin: 0;
+  margin-bottom: 23.3px;
 }
 
 section div p {
   font-size: 16.67px;
   line-height: 20.83px;
   letter-spacing: 0;
+  margin-bottom: 22.8px;
 }
 
 #food-bag-image {

@@ -70,6 +70,11 @@ section {
   display: inline-block;
 }
 
+#story-text-container a:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
 #food-bag-image {
   width: 357px;
   height: 322px;

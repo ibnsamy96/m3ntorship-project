@@ -19,16 +19,28 @@
   </button>
   <nav class="z-index-4" [class.open]="isNavOpen">
     <ul class="nav-elements">
-      <li class="nav-element uppercase white-text bold secondary-text">
+      <li
+        (click)="isNavOpen = !isNavOpen"
+        class="nav-element uppercase white-text bold secondary-text"
+      >
         <a>Shop For Dog</a>
       </li>
-      <li class="nav-element uppercase white-text bold secondary-text">
+      <li
+        (click)="isNavOpen = !isNavOpen"
+        class="nav-element uppercase white-text bold secondary-text"
+      >
         <a>Shop For Cat</a>
       </li>
-      <li class="nav-element uppercase white-text bold secondary-text">
+      <li
+        (click)="isNavOpen = !isNavOpen"
+        class="nav-element uppercase white-text bold secondary-text"
+      >
         <a>Our Story</a>
       </li>
-      <li class="nav-element uppercase white-text bold secondary-text">
+      <li
+        (click)="isNavOpen = !isNavOpen"
+        class="nav-element uppercase white-text bold secondary-text"
+      >
         <a>Contact Us</a>
       </li>
     </ul>

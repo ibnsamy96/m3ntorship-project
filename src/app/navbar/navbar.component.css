@@ -77,7 +77,8 @@ nav,
   }
   .nav-element {
     font-size: 20px;
-    padding: 0 16px;
+    /* padding: 1.2rem 7px 1.2rem 9px;*/
+    margin: 0 5px;
   }
 }
 
@@ -123,19 +124,25 @@ nav,
     font-size: 16.67px;
     letter-spacing: 0.16em;
     line-height: 20px;
-    padding-bottom: 60px;
+    padding-top: 29px;
+    padding-bottom: 29px;
+    margin-top: 1px;
     cursor: pointer;
+    text-align: center;
+    width: 100%;
   }
 
-  .nav-element:hover {
+  .nav-element:hover,
+  .nav-element:active {
     /* text-decoration: underline !important; */
     border-color: transparent;
+    background-color: var(--brand-cta-color);
   }
 
   .nav-element::after {
     content: "";
     position: relative;
-    top: 30px;
+    top: 32px;
     width: 80px;
     /* height: 20px; */
     border-bottom: white 1px solid;
@@ -143,10 +150,12 @@ nav,
     background: red;
     margin: auto;
   }
-
-  .nav-element:last-child {
-    margin-bottom: 0;
+  /* .nav-element:first-child {
+    padding-top: 0;
   }
+  .nav-element:last-child {
+    padding-bottom: 0;
+  } */
   .nav-element:last-child::after {
     content: "";
     /* position: ; */
@@ -154,7 +163,7 @@ nav,
     width: 0;
     /* height: 20px; */
     border-bottom: none;
-    display: inline-block;
+    display: inline;
     background: transparent;
     /* margin: 0; */
   }

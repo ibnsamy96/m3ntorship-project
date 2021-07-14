@@ -21,10 +21,12 @@ export class NavbarComponent implements OnInit {
     this.isNavOpen = !this.isNavOpen;
     // nav open by default
     // overflow hidden for the body element
-    this.renderer.setStyle(
-      this.document.body,
-      'overflow',
-      this.isNavOpen ? 'hidden' : 'auto'
-    );
+    setTimeout(() => {
+      this.renderer.setStyle(
+        this.document.body,
+        'overflow',
+        this.isNavOpen ? 'hidden' : 'auto'
+      );
+    }, 350);
   }
 }

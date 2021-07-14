@@ -96,17 +96,19 @@ nav,
     background-color: transparent;
   }
   nav {
-    display: none;
-    position: fixed;
-  }
-  nav.open {
     display: inline-block;
     position: fixed;
     top: 0;
     bottom: 0;
-    left: 0;
-    right: 0;
+    left: 100%;
+    opacity: 0.5;
+    width: 100%;
     background-color: #2e2d34;
+    transition: left 300ms ease-in-out, opacity 300ms ease-in-out;
+  }
+  nav.open {
+    left: 0;
+    opacity: 1;
   }
 
   .nav-elements {

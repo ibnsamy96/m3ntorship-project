@@ -40,23 +40,29 @@ nav,
   list-style-type: none;
   display: inline-block;
   font-size: 60px;
-  padding: 0 25px;
+  padding: 1.2rem 7px 1.2rem 9px;
+  margin: 0 18px;
   letter-spacing: 0.06em;
-  line-height: 20px;
+  /* line-height: 20px; */
+  cursor: pointer;
+  /* box-sizing: border-box; */
+  border-bottom: transparent 2px solid;
+  transition: border-color 100ms ease-in-out;
 }
 
 .nav-element:last-child {
-  padding-right: 0;
+  margin-right: 0;
 }
 
 .nav-element a {
   text-decoration: none;
   font-size: 13px;
-  cursor: pointer;
+  display: block;
 }
 
-.nav-element a:hover {
-  text-decoration: underline !important;
+.nav-element:hover {
+  /* text-decoration: underline !important; */
+  border-bottom: white 2px solid;
 }
 
 @media (max-width: 1275px) {
@@ -79,6 +85,15 @@ nav,
   header {
     max-width: 80%;
   }
+  #nav-toggler {
+    display: inline-block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 13px;
+    min-height: 13px;
+    background-color: transparent;
+  }
   nav {
     display: none;
     position: fixed;
@@ -93,14 +108,55 @@ nav,
     background-color: #2e2d34;
   }
 
-  #nav-toggler {
-    display: inline-block;
+  .nav-elements {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    min-width: 13px;
-    min-height: 13px;
-    background-color: transparent;
+    height: 100%;
+    width: 100%;
+  }
+
+  .nav-element {
+    padding: 0;
+    margin: 0;
+    font-size: 16.67px;
+    letter-spacing: 0.16em;
+    line-height: 20px;
+    padding-bottom: 60px;
+    cursor: pointer;
+  }
+
+  .nav-element:hover {
+    /* text-decoration: underline !important; */
+    border-color: transparent;
+  }
+
+  .nav-element::after {
+    content: "";
+    position: relative;
+    top: 30px;
+    width: 80px;
+    /* height: 20px; */
+    border-bottom: white 1px solid;
+    display: block;
+    background: red;
+    margin: auto;
+  }
+
+  .nav-element:last-child {
+    margin-bottom: 0;
+  }
+  .nav-element:last-child::after {
+    content: "";
+    /* position: ; */
+    top: 0;
+    width: 0;
+    /* height: 20px; */
+    border-bottom: none;
+    display: inline-block;
+    background: transparent;
+    /* margin: 0; */
   }
 }
 

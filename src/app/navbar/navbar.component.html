@@ -7,7 +7,16 @@
       id="companyLogo"
     />
   </div>
-  <nav class="">
+  <button id="nav-toggler">
+    <img
+      [src]="
+        '../../assets/images/navbar/' + (isNavOpen ? 'close' : 'open') + '.png'
+      "
+      alt="navbar-toggler"
+      (click)="toggleNavbar()"
+    />
+  </button>
+  <nav>
     <ul class="nav-elements">
       <li class="nav-element uppercase white-text bold secondary-text">
         <a>Shop For Dog</a>

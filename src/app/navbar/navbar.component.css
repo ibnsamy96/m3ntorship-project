@@ -20,8 +20,16 @@ nav,
   display: inline-block;
 }
 
+#nav-toggler {
+  display: none;
+  border: none;
+  cursor: pointer;
+}
+
 .logo-container {
   cursor: pointer;
+  display: flex;
+  align-items: center;
 }
 
 #companyLogo {
@@ -49,4 +57,44 @@ nav,
 
 .nav-element a:hover {
   text-decoration: underline !important;
+}
+
+@media (max-width: 1275px) {
+  header {
+    max-width: 90%;
+  }
+}
+
+@media (max-width: 1024px) {
+  #companyLogo {
+    max-width: 175px;
+  }
+  .nav-element {
+    font-size: 20px;
+    padding: 0 16px;
+  }
+}
+
+@media (max-width: 850px) {
+  header {
+    max-width: 80%;
+  }
+  nav {
+    display: none;
+  }
+  #nav-toggler {
+    display: inline-block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 13px;
+    min-height: 13px;
+    background-color: transparent;
+  }
+}
+
+@media (max-width: 480px) {
+  #companyLogo {
+    max-width: 125px;
+  }
 }

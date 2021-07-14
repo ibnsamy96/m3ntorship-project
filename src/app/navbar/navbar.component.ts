@@ -1,4 +1,5 @@
-import { Component, OnInit } from '@angular/core';
+import { DOCUMENT } from '@angular/common';
+import { Component, OnInit, Inject, Renderer2 } from '@angular/core';
 
 @Component({
   selector: 'app-navbar',
@@ -8,13 +9,22 @@ import { Component, OnInit } from '@angular/core';
 export class NavbarComponent implements OnInit {
   isNavOpen = false;
 
-  constructor() {}
+  constructor(
+    @Inject(DOCUMENT) private document: Document,
+    private renderer: Renderer2
+  ) {}
 
   ngOnInit(): void {}
 
   toggleNavbar() {
-    // open nav
     // toggle boolean
     this.isNavOpen = !this.isNavOpen;
+    // nav open by default
+    // overflow hidden for the body element
+    this.renderer.setStyle(
+      this.document.body,
+      'overflow',
+      this.isNavOpen ? 'hidden' : 'auto'
+    );
   }
 }

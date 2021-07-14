@@ -12,11 +12,12 @@
       [src]="
         '../../assets/images/navbar/' + (isNavOpen ? 'close' : 'open') + '.png'
       "
+      class="z-index-5"
       alt="navbar-toggler"
       (click)="toggleNavbar()"
     />
   </button>
-  <nav>
+  <nav class="z-index-4" [class.open]="isNavOpen">
     <ul class="nav-elements">
       <li class="nav-element uppercase white-text bold secondary-text">
         <a>Shop For Dog</a>

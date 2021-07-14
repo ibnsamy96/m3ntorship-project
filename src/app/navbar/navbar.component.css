@@ -65,7 +65,7 @@ nav,
   }
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 1100px) {
   #companyLogo {
     max-width: 175px;
   }
@@ -81,7 +81,18 @@ nav,
   }
   nav {
     display: none;
+    position: fixed;
   }
+  nav.open {
+    display: inline-block;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #2e2d34;
+  }
+
   #nav-toggler {
     display: inline-block;
     display: flex;

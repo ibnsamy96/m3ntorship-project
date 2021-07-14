@@ -71,16 +71,15 @@ section {
   margin-right: 39px;
 }
 
-#footer-menu span:last-of-type {
-  margin-right: 0;
-}
-
 #footer-menu p {
   font-size: 16.67px;
   line-height: 20px;
   letter-spacing: 0;
   display: flex;
   align-items: center;
+}
+#social-media-icons {
+  min-width: max-content;
 }
 
 #social-media-icons span {
@@ -93,7 +92,7 @@ section {
 }
 
 #social-media-icons span:last-of-type {
-  margin-right: 0; /*  TODO check if it's not important */
+  margin-right: 0;
 }
 
 @media (max-width: 1275px) {
@@ -113,7 +112,9 @@ section {
     border-color: transparent;
     background-position: -120px -72px;
   }
-
+  #right-side {
+    width: 55%;
+  }
   #footer-menu #first-line span:first-of-type {
     margin-right: 14px;
   }

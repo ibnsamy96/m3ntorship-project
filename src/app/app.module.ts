@@ -23,12 +23,10 @@ import { CtaBtnComponent } from './shared/cta-btn/cta-btn.component';
     CtaSectionComponent,
     ProductsComponent,
     FooterComponent,
-    CtaBtnComponent
+    CtaBtnComponent,
   ],
-  imports: [
-    BrowserModule
-  ],
+  imports: [BrowserModule],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}

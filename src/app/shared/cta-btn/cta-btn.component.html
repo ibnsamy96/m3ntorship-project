@@ -1,8 +1,10 @@
 <a
   class="btn secondary-text bold white-text cta-bg"
-  [style.fontSize]="fontSize + 'px'"
-  [style.lineHeight]="lineHeight + 'px'"
-  [style.letterSpacing]="letterSpacing + 'em'"
-  [style.padding]="paddingY + 'px' + ' ' + paddingX + 'px'"
-  >{{ buttonText }}</a
+  [style.fontSize]="finalState.fontSize + 'px'"
+  [style.lineHeight]="finalState.lineHeight + 'px'"
+  [style.letterSpacing]="finalState.letterSpacing + 'em'"
+  [style.padding]="
+    finalState.paddingY + 'px' + ' ' + finalState.paddingX + 'px'
+  "
+  >{{ finalState.buttonText }}</a
 >

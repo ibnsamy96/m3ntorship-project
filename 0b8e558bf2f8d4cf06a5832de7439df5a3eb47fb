@@ -1,0 +1,263 @@
+[33mcommit 0b8e558bf2f8d4cf06a5832de7439df5a3eb47fb[m[33m ([m[1;36mHEAD -> [m[1;32mresponsive-version[m[33m, [m[1;31morigin/responsive-version[m[33m)[m
+Author: Mahmoud Samy Mohamed Mahmoud <mahmoudsamy50@outlook.com>
+Date:   Thu Jul 15 15:01:42 2021 +0200
+
+    finished products section responsiveness
+
+[33mcommit e3a60639287b0759a113072ee0db8bb75a24b5dc[m
+Author: Mahmoud Samy Mohamed Mahmoud <mahmoudsamy50@outlook.com>
+Date:   Thu Jul 15 14:57:09 2021 +0200
+
+    updated the shared cta-btn to support responsivness
+
+[33mcommit 0a789446579ee3e0868007bff490f60f75ef8ec3[m
+Author: Mahmoud Samy Mohamed Mahmoud <mahmoudsamy50@outlook.com>
+Date:   Thu Jul 15 13:56:21 2021 +0200
+
+    changed the favicon to a better one
+
+[33mcommit 2f254be479171d5586b776d197018351e787fa6a[m
+Author: Mahmoud Samy Mohamed Mahmoud <mahmoudsamy50@outlook.com>
+Date:   Thu Jul 15 00:13:33 2021 +0200
+
+    finished footer responsivness
+
+[33mcommit 1962aaa91ea6a356de4f2a91ad5659260482b03a[m
+Author: Mahmoud Samy Mohamed Mahmoud <mahmoudsamy50@outlook.com>
+Date:   Thu Jul 15 00:03:28 2021 +0200
+
+    enhanced footer background, logo and footer-menu responsiveness
+
+[33mcommit c976a0f11fc7a40ef7a8be21e9f6c579d0b7f7f2[m
+Author: Mahmoud Samy Mohamed Mahmoud <mahmoudsamy50@outlook.com>
+Date:   Wed Jul 14 22:50:26 2021 +0200
+
+    changed scroll-bar hover color
+
+[33mcommit 71a033307ca8580023528bda9fec5619b5180b20[m
+Author: Mahmoud Samy Mohamed Mahmoud <mahmoudsamy50@outlook.com>
+Date:   Wed Jul 14 21:09:36 2021 +0200
+
+    added favicon
+
+[33mcommit 4ac6b5b29f640bf5d8beb2f1f01fd8849a43b408[m
+Author: Mahmoud Samy Mohamed Mahmoud <mahmoudsamy50@outlook.com>
+Date:   Wed Jul 14 19:57:55 2021 +0200
+
+    added transition to the navbar
+
+[33mcommit d5b64a52c4f0e91efc02a200ccf8a18a818df05c[m
+Author: Mahmoud Samy Mohamed Mahmoud <mahmoudsamy50@outlook.com>
+Date:   Wed Jul 14 19:42:40 2021 +0200
+
+    finished the toggled navbar design and main functionality
+
+[33mcommit a3e0a2e9d62df88d84c01ea1c985a1a1005f7872[m
+Author: Mahmoud Samy Mohamed Mahmoud <mahmoudsamy50@outlook.com>
+Date:   Wed Jul 14 18:56:09 2021 +0200
+
+    fixed nav-elements postioning and enhanced responsivness menu
+
+[33mcommit c21cbb01b3a4f6b995726469c9fc06171ab0e950[m
+Author: Mahmoud Samy Mohamed Mahmoud <mahmoudsamy50@outlook.com>
+Date:   Wed Jul 14 17:22:36 2021 +0200
+
+    fixed the pointer css for the nav-elements
+
+[33mcommit ba5e1c92de76494f541a7bc48135fcf1ed2e5bf0[m
+Author: Mahmoud Samy Mohamed Mahmoud <mahmoudsamy50@outlook.com>
+Date:   Wed Jul 14 17:20:18 2021 +0200
+
+    added the ability to open the nav
+
+[33mcommit f0b83ce3fe1c6112562f84b5436fb45cd87d2592[m
+Author: Mahmoud Samy Mohamed Mahmoud <mahmoudsamy50@outlook.com>
+Date:   Wed Jul 14 17:19:32 2021 +0200
+
+    enhanced header z-index values
+
+[33mcommit 8162b93fe797d87f23a0573a3e940dd4229499ea[m
+Author: Mahmoud Samy Mohamed Mahmoud <mahmoudsamy50@outlook.com>
+Date:   Wed Jul 14 17:18:55 2021 +0200
+
+    added more z-indexs values
+
+[33mcommit cda1ec147c8e8240c53b43c79339ed13ffe06c17[m
+Author: Mahmoud Samy Mohamed Mahmoud <mahmoudsamy50@outlook.com>
+Date:   Wed Jul 14 16:44:04 2021 +0200
+
+    added the toggler and its responsiveness
+
+[33mcommit 0b64dae5c789b6e44fb63e99728282eb9842e9a5[m
+Author: Mahmoud Samy Mohamed Mahmoud <mahmoudsamy50@outlook.com>
+Date:   Wed Jul 14 16:40:04 2021 +0200
+
+    changed scroll-bar style
+
+[33mcommit a9c187b1b206832a29df2dd0e56d726b68eec40c[m
+Author: Mahmoud Samy Mohamed Mahmoud <mahmoudsamy50@outlook.com>
+Date:   Fri Jul 2 13:20:14 2021 +0200
+
+    added underline for links and enhanced design
+
+[33mcommit 5c9a66b7e589e44f73516eb0a8fb0f5eefbc84c5[m
+Author: Mahmoud Samy Mohamed Mahmoud <mahmoudsamy50@outlook.com>
+Date:   Thu Jul 1 23:46:41 2021 +0200
+
+    initiated responsive branch
+
+[33mcommit 3e3be72b6da49d254b48d725e5542bb5e72c9dda[m[33m ([m[1;31morigin/main[m[33m, [m[1;32mmain[m[33m)[m
+Author: Mahmoud Samy Mohamed Mahmoud <mahmoudsamy50@outlook.com>
+Date:   Thu Jul 1 23:38:25 2021 +0200
+
+    overall enhancments
+
+[33mcommit 0ac2409a0ddfb8fcd449a32647250a3d015f1395[m
+Author: Mahmoud Samy Mohamed Mahmoud <mahmoudsamy50@outlook.com>
+Date:   Thu Jul 1 23:20:08 2021 +0200
+
+    fininshed  cta-section
+
+[33mcommit 3b91ab5c38467c1e6137d121c7b0e6fa967cdef7[m
+Author: Mahmoud Samy Mohamed Mahmoud <mahmoudsamy50@outlook.com>
+Date:   Thu Jul 1 23:14:28 2021 +0200
+
+    finished cta-section text
+
+[33mcommit c44732b9ea0f3c28113c3182c23e1b566a224894[m
+Author: Mahmoud Samy Mohamed Mahmoud <mahmoudsamy50@outlook.com>
+Date:   Thu Jul 1 22:34:21 2021 +0200
+
+    enhnced story
+
+[33mcommit 73efbbf2fe4fb484a5a745a6edc9a46098db4f6d[m
+Author: Mahmoud Samy Mohamed Mahmoud <mahmoudsamy50@outlook.com>
+Date:   Thu Jul 1 22:06:35 2021 +0200
+
+    enhnced products
+
+[33mcommit 92e9ba36c4f7052f733e287a4020461beb1c9e02[m
+Author: Mahmoud Samy Mohamed Mahmoud <mahmoudsamy50@outlook.com>
+Date:   Thu Jul 1 22:04:32 2021 +0200
+
+    enhnced start-life
+
+[33mcommit d18815d21c0239195d894a9a9fc1f941e787d291[m
+Author: Mahmoud Samy Mohamed Mahmoud <mahmoudsamy50@outlook.com>
+Date:   Thu Jul 1 21:58:21 2021 +0200
+
+    enhnced the header
+
+[33mcommit 5dee127926ecf3cd5a0fa15b77310aee5ef63c8d[m
+Author: Mahmoud Samy Mohamed Mahmoud <mahmoudsamy50@outlook.com>
+Date:   Thu Jul 1 10:52:45 2021 +0200
+
+    enhanced footer background for large screens
+
+[33mcommit 895496a6db16f80379f5cf95a0c1e7fb65069350[m
+Author: Mahmoud Samy Mohamed Mahmoud <mahmoudsamy50@outlook.com>
+Date:   Thu Jul 1 10:23:45 2021 +0200
+
+    finished the footer
+
+[33mcommit b37ccd3f31da7a8fa6e195621a3195036e84a856[m
+Author: Mahmoud Samy Mohamed Mahmoud <mahmoudsamy50@outlook.com>
+Date:   Wed Jun 30 10:13:10 2021 +0200
+
+    finished minimum viable of products section
+
+[33mcommit 61e47c828ca076e22f2fdb1ec4f7b8e635566bfb[m
+Author: Mahmoud Samy Mohamed Mahmoud <mahmoudsamy50@outlook.com>
+Date:   Wed Jun 30 09:59:19 2021 +0200
+
+    finished minimum viable of start life section
+
+[33mcommit 9d3f2dfcdc536d28bea4db4d7e643c041de77d6a[m
+Author: Mahmoud Samy Mohamed Mahmoud <mahmoudsamy50@outlook.com>
+Date:   Wed Jun 30 09:41:47 2021 +0200
+
+    added general css rules for all elements and made its piriority higher
+
+[33mcommit ee73f6728dafd7f1b85fd70b2773a2e79c3e0057[m
+Author: Mahmoud Samy Mohamed Mahmoud <mahmoudsamy50@outlook.com>
+Date:   Tue Jun 29 23:24:42 2021 +0200
+
+    finished the configuration of the shared cta button
+
+[33mcommit 570cdfe59e0d210d5766773678262e659e3a1080[m
+Author: Mahmoud Samy Mohamed Mahmoud <mahmoudsamy50@outlook.com>
+Date:   Tue Jun 29 22:57:28 2021 +0200
+
+    removed unused css rule
+
+[33mcommit 980191948aea14ffa21eae5d20df2f71007527ed[m
+Author: Mahmoud Samy Mohamed Mahmoud <mahmoudsamy50@outlook.com>
+Date:   Tue Jun 29 22:55:53 2021 +0200
+
+    finished the ingredient component in desktop
+
+[33mcommit ce919e26d71192fe13a2e5f2606b96ecd5d57375[m
+Author: Mahmoud Samy Mohamed Mahmoud <mahmoudsamy50@outlook.com>
+Date:   Tue Jun 29 12:15:53 2021 +0200
+
+    added the story component
+
+[33mcommit d6d6b7c9ea551db15010880b4f0d25bba17fdce9[m
+Author: Mahmoud Samy Mohamed Mahmoud <mahmoudsamy50@outlook.com>
+Date:   Tue Jun 29 12:15:38 2021 +0200
+
+    added new general css rules
+
+[33mcommit cbdb8181343f55f789e42642a6d93013291bc305[m
+Author: Mahmoud Samy Mohamed Mahmoud <mahmoudsamy50@outlook.com>
+Date:   Tue Jun 29 12:14:51 2021 +0200
+
+    used general css rules instead of element rules
+
+[33mcommit 0825c66e73d623d1cbe5a6d63c09cc11ec69e81b[m
+Author: Mahmoud Samy Mohamed Mahmoud <mahmoudsamy50@outlook.com>
+Date:   Tue Jun 29 12:13:34 2021 +0200
+
+    added new font weights
+
+[33mcommit 19028cc8650869413adab4eb670f1d45c13e4bbd[m
+Author: Mahmoud Samy Mohamed Mahmoud <mahmoudsamy50@outlook.com>
+Date:   Tue Jun 29 10:06:44 2021 +0200
+
+    added story section dog & created cta-btn component
+
+[33mcommit bfea52456a836a3521ab1ee06224bbbb9586b0f6[m
+Author: Mahmoud Samy Mohamed Mahmoud <mahmoudsamy50@outlook.com>
+Date:   Tue Jun 29 10:00:38 2021 +0200
+
+    changed images locations
+
+[33mcommit 653c0a3f35c17e7b9f9327eeee2c5d721b05f76f[m
+Author: Mahmoud Samy Mohamed Mahmoud <mahmoudsamy50@outlook.com>
+Date:   Tue Jun 29 01:18:16 2021 +0200
+
+    created components for all project sections
+
+[33mcommit 1426253ffc260be57526c82b6e7a0796c7400f81[m
+Author: Mahmoud Samy Mohamed Mahmoud <mahmoudsamy50@outlook.com>
+Date:   Tue Jun 29 01:12:55 2021 +0200
+
+    encapulated navbar position css to be only in its component
+
+[33mcommit 622ada847509be4d346e8fa30f6dbc6db2b5ebc2[m
+Author: Mahmoud Samy Mohamed Mahmoud <mahmoudsamy50@outlook.com>
+Date:   Tue Jun 29 01:09:20 2021 +0200
+
+    finished section 1 in the desktop view
+
+[33mcommit a4e536964529682bdcea52b76ce9201d23570807[m
+Author: Mahmoud Samy Mohamed Mahmoud <mahmoudsamy50@outlook.com>
+Date:   Mon Jun 28 23:12:37 2021 +0200
+
+    added main files & fonts - finished the navbar in desktop view
+
+[33mcommit b0702bb0be1d8c3019f4466d775a9aff752c8d37[m
+Author: Mahmoud Samy Mohamed Mahmoud <mahmoudsamy50@outlook.com>
+Date:   Sun Jun 27 18:02:32 2021 +0200
+
+    initial commit

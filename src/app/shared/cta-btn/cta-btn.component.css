@@ -4,6 +4,7 @@
   display: inline-block;
   cursor: pointer;
   transition: background-color 100ms;
+  text-align: center;
 }
 .btn:hover {
   background-color: var(--brand-cta-color-dark);

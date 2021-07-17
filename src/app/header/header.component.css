@@ -1,5 +1,5 @@
 :host {
-  display: inline-block;
+  display: block;
   width: 100%;
   /* max-height: 100vh; */
   background-image: url("../../assets/images/header/header-bg.jpg");

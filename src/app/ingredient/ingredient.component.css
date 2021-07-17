@@ -2,14 +2,15 @@
   display: inline-block;
   width: 100%;
   /* height: ; */
-  background: linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
     url("../../assets/images/ingredient/chicken.png");
   background-position: center;
   background-size: cover;
 }
 
 section {
-  max-width: 837px;
+  width: 837px;
+  max-width: 95%;
   margin: 78px auto;
 }
 
@@ -27,4 +28,22 @@ section h1 span {
 p {
   font-size: 20.83px;
   line-height: 33.33px;
+}
+
+@media (max-width: 480px) {
+  section h1 {
+    /* line-height: 66.67px; */
+    font-size: 52px;
+    /* letter-spacing: 0em; */
+  }
+
+  section h1 span {
+    font-size: 28px;
+    /* letter-spacing: 0.16em; */
+  }
+
+  p {
+    font-size: 18px;
+    /* line-height: 33.33px; */
+  }
 }

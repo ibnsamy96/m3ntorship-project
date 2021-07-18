@@ -35,6 +35,25 @@ export class CtaBtnComponent implements OnInit {
   constructor() {}
 
   ngOnInit(): void {
+    this.useDefaultBTNConfigurations();
+    this.detectScreenSize();
+  }
+
+  detectScreenSize(): void {
+    const innerWidth = window.innerWidth;
+
+    const breakpoints = this.responsivenessBehavior?.map(
+      (state) => state.breakpoint
+    );
+
+    if (this.responsivenessBehavior && innerWidth <= Math.max(...breakpoints)) {
+      this.updateFinalStateForSmallScreens();
+    } else {
+      this.useDefaultBTNConfigurations();
+    }
+  }
+
+  useDefaultBTNConfigurations(): void {
     this.finalState = {
       buttonText: this.buttonText,
       letterSpacing: this.letterSpacing,
@@ -43,12 +62,9 @@ export class CtaBtnComponent implements OnInit {
       paddingX: this.paddingX,
       paddingY: this.paddingY,
     };
-
-    this.detectScreenSize();
   }
 
-  detectScreenSize(): void {
-    const innerWidth = window.innerWidth;
+  updateFinalStateForSmallScreens(): void {
     this.responsivenessBehavior?.forEach((state) => {
       if (innerWidth <= state.breakpoint) {
         this.finalState.fontSize = state.fontSize ?? this.fontSize;

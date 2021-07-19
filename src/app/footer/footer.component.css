@@ -62,6 +62,9 @@ section {
   text-transform: uppercase;
   cursor: pointer;
 }
+#footer-menu span:hover {
+  text-decoration: underline;
+}
 
 #footer-menu #first-line span:first-of-type {
   margin-right: 48px;

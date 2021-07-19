@@ -124,6 +124,11 @@ p {
 }
 @media (max-width: 650px) {
   /* Start of one column view */
+
+  :host {
+    margin-left: -36px;
+  }
+
   section {
     flex-direction: column;
     padding-top: 38px;

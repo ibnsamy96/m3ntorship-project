@@ -17,9 +17,18 @@ export class NavbarComponent implements OnInit {
   ngOnInit(): void {}
 
   toggleNavbar() {
-    // toggle boolean
-    this.isNavOpen = !this.isNavOpen;
-    // nav open by default
+    if (window.innerWidth <= 850) {
+      console.log('toggle');
+      // toggle boolean
+      this.isNavOpen = !this.isNavOpen;
+      // nav open by default
+      this.toggleOverflow();
+    }
+  }
+
+  toggleOverflow() {
+    console.log('overflow');
+
     // overflow hidden for the body element
     setTimeout(() => {
       this.renderer.setStyle(
